@@ -8,30 +8,42 @@ body {
 }
 
 div.navcontainer {
+  height: 7vh;
   display: flex;
   margin: 0;
   padding: 0;
   border: black 1px;
-  background-color: #0a0f0d;
+  background-color: #161616;
   position: relative;
   justify-content: space-between;
+  align-items: center;
 }
 
 #navbar {
   display: flex;
-  align-items: flex-end;
-  align-items: center;
+  margin-right: 6%;
 }
 
 #navbar a,
 #navbar a:visited {
+  font-family: helvetica;
   text-decoration: none;
   color: white;
+}
+
+#navbar a:hover,
+#navbar a:active {
+  color: orange;
+  font-weight: 600;
 }
 
 #navbar li {
   list-style: none;
   margin-right: 10px;
+}
+
+#logo {
+  margin-left: 6%;
 }
 
 #logo a,
@@ -43,6 +55,11 @@ div.navcontainer {
   color: orange;
   margin: 0;
   padding: 0;
+}
+
+#logo a:hover,
+#logo a:active {
+  color: orange;
 }
 
 .parent {
