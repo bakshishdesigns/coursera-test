@@ -1,6 +1,122 @@
-div {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.move:hover {
+  color: salmon;
+  transform: translateX(40px);
+}
+
+.move {
+  transition: 0.4s;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3em;
+  font-size: 10em;
   font-weight: 900;
-  color: yellow;
+  color: powderblue;
+  text-decoration: none;
+  transition: 0.4s;
+  margin-left: 5%;
+}
+
+#hello {
+  text-decoration: none;
+}
+
+body {
+  background-color: royalblue;
+  height: 100vh;
+}
+
+/* Actual Stuff */
+
+.card {
+  margin: 15px;
+  height: 350px;
+  background-color: pink;
+}
+
+.section {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card p {
+  margin: 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: royalblue;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.card h3 {
+  margin: 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: royalblue;
+  font-size: 1.6em;
+  font-weight: 600;
+  text-decoration: underline double salmon;
+}
+
+.c1,
+.c2,
+.c3 {
+  flex: 1 0 300px;
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .move {
+    margin-top: 30px;
+    font-size: 3em;
+  }
+  .section {
+    margin-top: 30px;
+  }
+  .card {
+    height: 150px;
+  }
+  .card h3 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+  .card p {
+    font-size: 1em;
+    font-weight: 200;
+  }
+
+  .c1,
+  .c2,
+  .c3 {
+    flex: 1 0 90%;
+  }
+}
+
+@media (max-width: 470px) {
+  .card {
+    height: 250px;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 991px) {
+  .move {
+    font-size: 6em;
+  }
+  .card h3 {
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+
+  .card p {
+    font-size: 1.2em;
+    font-weight: 300;
+  }
+  .card {
+    height: 250px;
+  }
 }
