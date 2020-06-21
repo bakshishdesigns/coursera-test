@@ -6,6 +6,7 @@
   background-color: rgb(232, 232, 248);
   border: solid white 3px;
   padding: 10px;
+  border-radius: 10px;
 }
 
 #content {
@@ -25,4 +26,15 @@
   text-decoration: tomato underline double;
   width: 100%;
   padding: 15px;
+}
+
+hr.lol {
+  margin: 0 25%;
+  width: 50%;
+}
+hr.topp {
+  margin: 0;
+}
+.nav-item {
+  text-align: center;
 }

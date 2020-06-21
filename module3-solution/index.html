@@ -21,43 +21,45 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <h1>Food LLC</h1>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item d-xs-block d-md-none">
-              <a class="nav-link" href="#">Chicken</a>
-            </li>
-            <li class="nav-item d-xs-block d-md-none">
-              <a class="nav-link" href="#">Beef</a>
-            </li>
-            <li class="nav-item d-xs-block d-md-none">
-              <a class="nav-link" href="#">Sushi</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h1>Food LLC</h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item d-md-none">
+                <hr class="topp" />
+                <a class="nav-link" href="#chicken">Chicken</a>
+                <hr class="lol" />
+              </li>
+              <li class="nav-item d-md-none">
+                <a class="nav-link" href="#beef">Beef</a>
+                <hr class="lol" />
+              </li>
+              <li class="nav-item d-md-none">
+                <a class="nav-link" href="#sushi">Sushi</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-
+      </nav>
+    </header>
+    <h2 class="text-center heading">Our Menu</h2>
     <!-- Content -->
     <div class="container-fluid" id="content">
       <div class="row">
-        <h2 class="heading">Our Menu</h2>
-      </div>
-      <div class="row">
         <div class="itembox col-12">
-          <h3>Chicken</h3>
+          <h3 id="chicken">Chicken</h3>
           <p>
             <!-- Lorem 500 -->
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam non
@@ -122,7 +124,7 @@
           </p>
         </div>
         <div class="itembox col-12">
-          <h3>Beef</h3>
+          <h3 id="beef">Beef</h3>
           <p>
             <!-- Lorem 500 -->
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at,
@@ -188,7 +190,7 @@
           </p>
         </div>
         <div class="itembox col-12">
-          <h3>Sushi</h3>
+          <h3 id="sushi">Sushi</h3>
           <p>
             <!-- Lorem 500 -->
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus

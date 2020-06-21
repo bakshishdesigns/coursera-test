@@ -21,8 +21,11 @@
 .heading {
   font-size: 2em;
   font-weight: 600;
-  text-align: center;
   text-decoration: tomato underline double;
   width: 100%;
   padding: 15px;
+}
+
+.navbar-nav {
+  align-content: center;
 }
