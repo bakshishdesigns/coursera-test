@@ -8,6 +8,8 @@ Or directly go to the page you want to visit:
 
 [Module-3 Solution](https://bakshishdesigns.github.io/coursera-test/module3-solution/)
 
+[Module-4 Solution](https://bakshishdesigns.github.io/coursera-test/module4-solution/)
+
 [Test-Site](https://bakshishdesigns.github.io/coursera-test/site/) 
 
 
