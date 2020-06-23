@@ -16,7 +16,7 @@ var list = document.getElementById("namesList");
 
 // Actual Solution
 for (name in names) {
-  if (names[name][0] === "j" || names[name][0] === "J") {
+  if (names[name][0].toLowerCase() === "j") {
     byeSpeaker.speak(names[name]);
   } else {
     helloSpeaker.speak(names[name]);
@@ -26,7 +26,7 @@ for (name in names) {
 //Webpages Loop
 function namesLoop(names) {
   setTimeout(() => {
-    if (names[i][0] === "j" || names[i][0] === "J") {
+    if (names[i][0].toLowerCase() === "j") {
       var showName = document.createElement("div");
       showName.innerHTML = `Goodbye ${names[i]}!`;
       showName.className = "output animate goodbye";
