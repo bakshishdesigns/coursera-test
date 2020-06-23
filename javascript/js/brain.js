@@ -40,3 +40,21 @@ function makeMultiplier(multiplier) {
 
 var operation = makeMultiplier(10);
 console.log(`10 in multiplier is:  ${operation(10)}`);
+
+// // Webpage Loop
+// function namesLoop(names) {
+//   setTimeout(() => {
+//     if (names[i][0] === "j" || names[i][0] === "J") {
+//       document.getElementById(i).innerHTML = `Goodbye ${names[i]}!`;
+//       document.getElementById(i).style.color = "#C1C1C1";
+//     } else {
+//       document.getElementById(i).innerHTML = `Hello ${names[i]}!`;
+//     }
+
+//     i++;
+//     if (i < names.length) {
+//       namesLoop(names);
+//     }
+//   }, 500);
+// }
+// namesLoop(names);
